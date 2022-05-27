@@ -47,7 +47,7 @@ body {
 }
 .form-content .form-detail h2 {
 	font-weight: 500;
-	font-size: 40px;
+	font-size: 1.8rem;
 	margin-bottom: 34px;
 	padding: 33px 50px 0px 60px;
 }
@@ -288,6 +288,11 @@ body {
 }
 
  @media screen and (max-width: 575px) {
+	.form-content .form-detail h2 {
+	
+		font-size: 1.6rem;
+	
+	}
 
 	.form-content {
 		margin:  35px 50px;
